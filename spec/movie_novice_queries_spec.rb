@@ -2,7 +2,7 @@ require 'rspec'
 require 'rails_helper'
 require 'spec_helper'
 
-require_relative '../movie_novice/queries.rb'
+require_relative './movie_novice/queries.rb'
 
 describe 'find_angelina' do
 	subject { find_angelina.as_json }

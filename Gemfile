@@ -7,7 +7,7 @@ end
 
 gem 'activerecord-import'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.2'
+gem 'rails','~> 5'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 1.0.0'
 # Use Puma as the app server
@@ -39,7 +39,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
-  gem 'rspec-rails', '~> 3.5'
+  gem 'rspec-rails', '~> 3.9.1'
   gem 'db-query-matchers'
 end
 
